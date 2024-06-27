@@ -1,2 +1,2 @@
-# This is a simple Hello, World! program in Python
-print("Hello, World!")
+message = "Hello, World!"
+print(message)

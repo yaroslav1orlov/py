@@ -35,7 +35,7 @@ print(7 % 2)  # Getting the remainder of the division of 7 by 2. Result - 1
 '''
     Operations      Direction
     **              Right to left
-    * / // %        Left to right
+    * / // %        Left to right      
     + -             Left to right
 '''
 

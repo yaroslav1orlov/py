@@ -1,3 +1,4 @@
+print("Wellcome to the YEROX company")
 bool_data = True
 int_data = 42
 float_data = 3.14

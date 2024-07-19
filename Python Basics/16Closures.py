@@ -19,7 +19,7 @@ fn()
 
 fn = outer()
 
-fn()    # 6
+fn()
 fn()
 fn()
 

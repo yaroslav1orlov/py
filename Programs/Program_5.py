@@ -1,11 +1,14 @@
-numb_1 = input("First number: ")
-numb_2 = input("Second number: ")
+def isEven(num):
+    divided = num / 2
+    rounded_num = round(divided)
+    #print(type(divided), divided, rounded_num)
+    number = rounded_num * 2
+    return number == num
 
-number_1 = int(numb_1)
-number_2 = int(numb_2)
+num = int(input("Enter any number: "))
+result = isEven(num)
 
-print(f"{number_1} + {number_2} = {number_1 + number_2}")
-print(f"{number_1} - {number_2} = {number_1 - number_2}")
-print(f"{number_1} * {number_2} = {number_1 * number_2}")
-print(f"{number_1} / {number_2} = {number_1 / number_2}")
-print(f"{number_1} % {number_2} = {number_1 % number_2}")
+if result:
+    print(f"This number is even ({num})")
+else:
+    print(f"This number is odd ({num})")

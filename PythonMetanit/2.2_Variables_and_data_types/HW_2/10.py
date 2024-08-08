@@ -4,8 +4,8 @@ counter = 0
 
 while True:
     print(f"Current counter value: {counter}")
-    print("Enter '+', to increase the value by 1.")
-    print("Enter '0', to reset the value.")
+    print("Enter 'p', to increase the value by 1.")
+    print("Enter 'r', to reset the value.")
     print("Enter 'q', to quit.")
     
     user_input = input("Your choice: ")

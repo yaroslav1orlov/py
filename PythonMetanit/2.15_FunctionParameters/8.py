@@ -1,10 +1,10 @@
 # 8. Напишите программу, которая проверяет, содержит ли строка гласные буквы.
 
-def isVowels(str1):
-    if any(char in "aeiouAEIOU" for char in str1): 
-        print("In string are some vowels letters")
+def isVowels(str):
+    if any(char in "aeiouAEIOU" for char in str): 
+        print(f"In string '{str1}', are some vowels letters")
         return True 
-    print("In string aren't any vowels letters")  
+    print(f"In string '{str1}', aren't any vowels letters")  
     return False
 
 

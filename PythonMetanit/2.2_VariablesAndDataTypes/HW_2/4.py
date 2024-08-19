@@ -5,7 +5,7 @@ while True:
     result = num == 0
     print(result)
     if result:
-        break 
+        break
 
 # + Создайте программу,
 # + которая запрашивает у пользователя числа

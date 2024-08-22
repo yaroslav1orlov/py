@@ -3,8 +3,8 @@
 a = 1
 b = 2
 
-while a <= 100:
+for i in range(1, 100):
+    if a > 100:
+        break
     print(a, end=" ")
-    temp = a + b
-    a = b
-    b = temp
+    a, b = b, a + b

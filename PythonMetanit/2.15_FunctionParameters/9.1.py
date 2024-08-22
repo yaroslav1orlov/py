@@ -2,13 +2,13 @@
 Запросить у пользователя число и вивести чётное оно или нет
 '''
 # создать функцию которая принимает число и возврощает bool
-n = 1
-def isPaired(n):
-    n = True, False
-    return n
+a = 1
+def isPaired(a):
+    a  = True, False
+    return a
 
-result = isPaired(n)
-print(n)
+result = isPaired(a)
+print(a)
 
 while True:
     num = int(input("ведите число: ")) #запрашивает число у пользователя

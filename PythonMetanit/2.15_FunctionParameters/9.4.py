@@ -1,3 +1,4 @@
 num =  int(input("Enter number: "))
-
-print("*" * num)
+for i in range(num):
+    print("*", end="")
+print()
